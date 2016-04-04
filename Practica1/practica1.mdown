@@ -2,8 +2,8 @@
 **Práctica 1**
 
 
-<p>Comprobación del funcionamiento del servicio apache</p>  
-<p>Comandos utilizados: **apache2 -v** y **ps aux | grep apache**.</p>
+Comprobación del funcionamiento del servicio apache  
+Comandos utilizados: **apache2 -v** y **ps aux | grep apache**.  
 
 ![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica1/ApacheM1.jpg)
 
