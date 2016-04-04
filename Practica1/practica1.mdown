@@ -5,8 +5,9 @@
 Comprobación del funcionamiento del servicio apache  
 Comandos utilizados: **apache2 -v** y **ps aux | grep apache**.  
 
+M1  
 ![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica1/ApacheM1.jpg)
-
+M2  
 ![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica1/ApacheM2.jpg)
 
 
