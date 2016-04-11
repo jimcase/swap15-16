@@ -11,7 +11,7 @@ Ahora vamos a hacer que se sincronice automáticamente sin contraseña para mant
 actualizado e idéntico, mediante ssh sin contraseña se usa autenticación con un par de claves pública-privada.
 A través de ssh-keygen podemos generar esta clave.
 Desde M2 ejecutamos **ssh-keygen -t dsa** para generar la clave de tipo dsa válida para el protocolo 2 de SSH.
-![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica2/images/claves-ssh.jpg)
+![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica2/images/clave-ssh.jpg)
 La variable **passphrase** es una contraseña privada para la comunicación entre las máquinas, pero como no queremos que haya contraseña se deja en blanco.
 Una vez generada la clave, hay que copiarla a M1.
 ![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica2/images/claves-ssh2.jpg)
