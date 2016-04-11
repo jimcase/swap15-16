@@ -6,3 +6,20 @@ Vamos a copiar el contenido de la carpeta /var/www de la máquina M1 (192.168.1.
 Desde M2 ejecutamos el siguiente comando:  
 **rsync -avz -e shh casso@192.168.1.20:/var/www /var/www**  
 ![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica2/image1.jpg)
+
+Ahora vamos a hacer que se sincronice automáticamente sin contraseña para mantener el contenido de M1 y M2
+actualizado e idéntico, mediante ssh sin contraseña se usa autenticación con un par de claves pública-privada.
+A través de ssh-keygen podemos generar esta clave.
+Desde M2 ejecutamos **ssh-keygen -t dsa** para generar la clave de tipo dsa válida para el protocolo 2 de SSH.
+![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica2/claves-ssh.png)
+La variable **passphrase** es una contraseña privada para la comunicación entre las máquinas, pero como no queremos que haya contraseña se deja en blanco.
+Una vez generada la clave, hay que copiarla a M1.
+![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica2/claves-ssh2.png)
+Ahora voy a probar si ha funcionado conectándome a M1 sin contraseña con el siguiente comando: **ssh-copy-id -i .ssh/id_dsa.pub casso@192.168.1.20**
+![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica2/claves-ssh3.png)
+Ahora para que la actualización sea autmática vamos a hacer uso del cron de linux y que ejecute este script:
+![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica2/scriptRsync.png)
+![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica2/scriptRsync2.png)
+Editamos el archivo **/etc/crontab** para añadir este script:
+![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica2/crontab.png)
+Ya tenemos la tarea programada para que actualice automáticamente el directorio **/var/www**.
