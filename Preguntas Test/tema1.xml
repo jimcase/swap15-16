@@ -1,0 +1,19 @@
+#Teoría Web de Altas Prestaciones
+**Preguntas test tema 1**
+
+<pregunta>
+   <enunciado>Una granja web se puede usar para servir:</enunciado>
+   <opcionA>Aplicaciones web</opcionA>
+   <opcionB>Bases de datos</opcionB>
+   <opcionC>Correo electrónico</opcionC>
+   <opcionD>Todas las anteriores son correctas</opcionD>
+   <solucion>D</solucion>
+</pregunta>
+<pregunta>
+   <enunciado>Se entiende por escalabilidad:</enunciado>
+   <opcionA>El almacenamiento de datos inadecuado</opcionA>
+   <opcionB>La capacidad para dar soporte a un número creciente de usuarios</opcionB>
+   <opcionC>La capacidad para estar disponible las 24 horas</opcionC>
+   <opcionD>Ninguna de las anteriores son correctas</opcionD>
+   <solucion>B</solucion>
+</pregunta>
