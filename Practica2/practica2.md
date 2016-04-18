@@ -19,14 +19,13 @@ Desde M2 ejecutamos **ssh-keygen -t dsa** para generar la clave de tipo dsa vál
 
 
 La variable **passphrase** es una contraseña privada para la comunicación entre las máquinas, pero como no queremos que haya contraseña se deja en blanco.
-Una vez generada la clave, hay que copiarla a M1.
+Una vez generada la clave, hay que copiarla a M1 con el siguiente comando: **ssh-copy-id -i .ssh/id_dsa.pub casso@192.168.1.20**
 
 
 ![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica2/images/clave-ssh2.jpg)
 
 
-Ahora voy a probar si ha funcionado conectándome a M1 sin contraseña con el siguiente comando: **ssh-copy-id -i .ssh/id_dsa.pub casso@192.168.1.20**
-
+Ahora voy a probar si ha funcionado conectándome a M1 sin contraseña.
 
 ![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica2/images/clave-ssh3.jpg)
 
