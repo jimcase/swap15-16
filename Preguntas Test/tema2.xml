@@ -1,0 +1,16 @@
+<pregunta>
+   <enunciado>Los sitios web se conforman con alcanzar una disponibilidad del:</enunciado>
+   <opcionA>90%</opcionA>
+   <opcionB>88%</opcionB>
+   <opcionC>99%</opcionC>
+   <opcionD>95%</opcionD>
+   <solucion>C</solucion>
+</pregunta>
+<pregunta>
+   <enunciado>¿A que se debe el incremento del nivel de carga de un sistema?</enunciado>
+   <opcionA>Fallos o caídas de algunas partes del sistema</opcionA>
+   <opcionB>A y C son correctas</opcionB>
+   <opcionC>Incremento repentino del número de usuarios del sitio </opcionC>
+   <opcionD>Añadir más recursos al sistema web</opcionD>
+   <solucion>B</solucion>
+</pregunta>
