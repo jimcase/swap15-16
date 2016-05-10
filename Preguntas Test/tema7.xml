@@ -1,0 +1,19 @@
+#Teoría Web de Altas Prestaciones
+**Preguntas test tema 7**
+
+<pregunta>
+   <enunciado>¿Qué caracteristica de un RAID por hardware es correcta?:</enunciado>
+   <opcionA>Es mucho más barato que uno configurado por software</opcionA>
+   <opcionB>Consume más recursos de la CPU que uno configurado por software</opcionB>
+   <opcionC>Es mucho más rápido que uno configurado por software</opcionC>
+   <opcionD>Es muy difícil de configurar</opcionD>
+   <solucion>C</solucion>
+</pregunta>
+<pregunta>
+   <enunciado>El Arrays de almacenamiento compartido SAN se caracteriza por:</enunciado>
+   <opcionA>Utilizar configuraciones RAID</opcionA>
+   <opcionB>Ofrecer una capa de abstracción entre los dispositivos de almacenamiento y los servidores, y permite que el espacio físico de almacenamiento crezca</opcionB>
+   <opcionC>Ser incompatible con SSA y NAS</opcionC>
+   <opcionD>Aceptar cambios en caliente de discos y varias configuraciones RAID</opcionD>
+   <solucion>B</solucion>
+</pregunta>

@@ -1,0 +1,19 @@
+#Teoría Web de Altas Prestaciones
+**Preguntas test tema 3**
+
+<pregunta>
+   <enunciado>El eje principal de enlace entre máquinas(Backbone), se puede formar con:</enunciado>
+   <opcionA>Switch</opcionA>
+   <opcionB>Router</opcionB>
+   <opcionC>Hub</opcionC>
+   <opcionD>Todas las anteriores son correctas</opcionD>
+   <solucion>D</solucion>
+</pregunta>
+<pregunta>
+   <enunciado>¿Qué configuración DMZ no es válida para conectar una granja web a otras redes:</enunciado>
+   <opcionA>Configuración de DMZ simple </opcionA>
+   <opcionB>Configuración de DMZ compuesta </opcionB>
+   <opcionC>Configuración de DMZ tradicional</opcionC>
+   <opcionD>Configuración de DMZ doble</opcionD>
+   <solucion>B</solucion>
+</pregunta>

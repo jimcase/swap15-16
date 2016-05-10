@@ -1,0 +1,19 @@
+#Teoría Web de Altas Prestaciones
+**Preguntas test tema 4**
+
+<pregunta>
+   <enunciado>En el balanceo de carga entendemos por persistencia como:</enunciado>
+   <opcionA>Permisos de control de los usuarios</opcionA>
+   <opcionB>Estrategias de distribución del tráfico entre el grupo de servidores</opcionB>
+   <opcionC>Comprobar regularmente si un servidor está activo o caído para reenviarle más tráfico</opcionC>
+   <opcionD>Mantener el tráfico de un usuario dirigido al servidor que comenzó a atenderlo</opcionD>
+   <solucion>D</solucion>
+</pregunta>
+<pregunta>
+   <enunciado>Cuá es una ventaja del balanceo de carga global para  distribuir la carga entre varios centros:</enunciado>
+   <opcionA>Complejo de implementar</opcionA>
+   <opcionB>Requiere de conocimientos de los DNS</opcionB>
+   <opcionC>Alta disponibilidad</opcionC>
+   <opcionD>Fácil de configurar</opcionD>
+   <solucion>C</solucion>
+</pregunta>

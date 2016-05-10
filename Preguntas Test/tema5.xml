@@ -1,0 +1,19 @@
+#Teoría Web de Altas Prestaciones
+**Preguntas test tema 5**
+
+<pregunta>
+   <enunciado>¿Qué tipo de prueba se utiliza para analizar el efecto de aplicar de forma continuada una carga por encima de la capacidad del sistema:</enunciado>
+   <opcionA>Estrés(Stress)</opcionA>
+   <opcionB>Sobrecarga(Overload)</opcionB>
+   <opcionC>Carga(Load)</opcionC>
+   <opcionD>Humo (Smoke)</opcionD>
+   <solucion>A</solucion>
+</pregunta>
+<pregunta>
+   <enunciado>¿Qué herramienta de las siguientes permite comprobar el rendimiento de cualquier servidor web:</enunciado>
+   <opcionA>nginx</opcionA>
+   <opcionB>filezilla</opcionB>
+   <opcionC>lighttpd</opcionC>
+   <opcionD>A y C son correctas</opcionD>
+   <solucion>D</solucion>
+</pregunta>

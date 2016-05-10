@@ -1,0 +1,19 @@
+#Teoría Web de Altas Prestaciones
+**Preguntas test tema 6**
+
+<pregunta>
+   <enunciado>Los objetivos básicos para asegurar y mejorar la disponibilidad del sitio así como hacer las operaciones más seguras son:</enunciado>
+   <opcionA>Confidencialidad</opcionA>
+   <opcionB>Integridad</opcionB>
+   <opcionC>Disponibilidad</opcionC>
+   <opcionD>Todas las anteriores son correctas</opcionD>
+   <solucion>D</solucion>
+</pregunta>
+<pregunta>
+   <enunciado>En la política de seguridad para los procedimientos de autenticación no es recomendable usar:</enunciado>
+   <opcionA>Un escáner de retina</opcionA>
+   <opcionB>ADN</opcionB>
+   <opcionC>Una clave</opcionC>
+   <opcionD>Una clave y una huella dactilar</opcionD>
+   <solucion>C</solucion>
+</pregunta>
