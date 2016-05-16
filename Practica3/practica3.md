@@ -6,7 +6,7 @@ En la siguinte imagen se muestra la instalación de nginx en la tercera máquina
 
 ![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica3/images/image1.png)
 
-Modificamos el fichero de configuración **/etc/nginx/conf.d/default.d** de nginx, añadiendo la IP de M1 y M2:
+Modificamos el fichero de configuración **/etc/nginx/conf.d/default.conf** de nginx, añadiendo la IP de M1 y M2:
 
 
 ![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica3/images/image2.png)
@@ -28,7 +28,7 @@ Cambiamos de software para el balanceador e instalamos **haproxy** en M3:
 
 ![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica3/images/image5.png)
 
-Cambiamos la configuración ya que la que viene por defececto no nos vale:
+Cambiamos la configuración **/etc/haproxy/haproxy.cfg** ya que la que viene por defececto no nos vale:
 
 
 ![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica3/images/image6.png)
