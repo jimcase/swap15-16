@@ -4,12 +4,12 @@
 ###Replicación de bases de datos MySQL
 Primero creamos una base de datos en la máquina M1(192.168.1.27):
 
-![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica4/images/image2.png)
+![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica5/images/image2.png)
 
 Luego guardamos los datos de la base de datos con **mysqldump contactos -u root -p > contactos.sql**
 Una vez guardada, nos vamos a la máquina esclavo(192.168.1.22) y pasamos a copiar la base de datos guardada en el paso anterior
 
-![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica4/images/image1.png)
+![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica5/images/image1.png)
 
 ###Replicación de BD mediante una configuración
 
@@ -39,16 +39,16 @@ Reiniciamos mysql:
 
 Ahora volvemos a la máquina M1 maestro(192.168.1.27) para crear un usuario y darle permisos de acceso para la replicación:
 
-![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica4/images/image3.png)
+![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica5/images/image3.png)
 
 Para finalizar con la configuración en la máquina M1 maestro(192.168.1.27), obtenemos los datos de la base de datos que vamos a replicar.
 
-![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica4/images/image4.png)
+![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica5/images/image4.png)
 
 
 Volvemos a la máquina esclava, entramos en mysql y le damos los datos del maestro:
 
-![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica4/images/image5.png)
+![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica5/images/image5.png)
 
 
 Después de introducir los datos del maestro ejecutamos los siguientes comandos:
@@ -56,4 +56,4 @@ Después de introducir los datos del maestro ejecutamos los siguientes comandos:
 **SHOW SLAVE STATUS\G;**
 Nos saldrá una pantalla como la siguiente, en donde si la variable Seconds_Behind_Master es distinta de null significa que todo ha salido bien:
 
-![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica4/images/image5.png)
+![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica5/images/image5.png)
