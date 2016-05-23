@@ -56,4 +56,4 @@ Después de introducir los datos del maestro ejecutamos los siguientes comandos:
 **SHOW SLAVE STATUS\G;**
 Nos saldrá una pantalla como la siguiente, en donde si la variable Seconds_Behind_Master es distinta de null significa que todo ha salido bien:
 
-![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica5/images/image5.png)
+![imagen](https://github.com/jimcase/swap15-16/blob/master/Practica5/images/image6.png)
